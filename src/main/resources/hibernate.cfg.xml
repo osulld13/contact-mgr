@@ -6,7 +6,7 @@
         <!-- SQL Dialect -->
         <property name="dialect">org.hibernate.dialect.H2Dialect</property>
         <!-- Create database schema on application startup -->
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">update</property>
         <!-- -->
         <property name="show_sql">true</property>
         <!-- Names the annotated entity classes -->
